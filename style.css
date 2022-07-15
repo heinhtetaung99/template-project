@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Prata&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a0a0b;
+  color: #707070;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  padding: 20px 128px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Prata", serif;
+  color: #ffffff;
+}
+
+nav {
+  padding: 28px 128px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 16px;
+  color: #f3f3f3;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-items li {
+  list-style: none;
+  margin-right: 28px;
+}
+
+button {
+  background-color: #fbe850;
+  padding: 16px 36px;
+  font-size: 18px;
+  font-family: "Prata", serif;
+  border: none;
+}
+
+button:hover {
+  background-color: #f1d91c;
+  cursor: pointer;
+}
+
+.heading {
+  margin-top: 16px;
+}
+
+.heading p {
+  margin-top: 16px;
+}
+
+.heading h2 {
+  font-size: 58px;
+}
+
+.companies {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.card {
+  flex: 1;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  margin-top: 16px;
+}
+
+.link {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.link a {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: "Prata", serif;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+.link a:hover {
+  color: #ccc;
+}
+
+.link svg {
+  width: 36px;
+  color: #ffffff;
+}
+
+.aboutme {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-top: 64px;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  background-color: #2e3038;
+}
+
+.column {
+  flex: 1;
+}
+
+.column h3 {
+  font-size: 32px;
+}
+
+.column p {
+  margin-top: 24px;
+}
+
+.contact {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.contact h3 {
+  font-size: 32px;
+}
+
+.contact p,
+button {
+  margin-top: 24px;
+}
+
+footer {
+  padding: 20px 128px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e3038;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+footer li a img:hover {
+  color: yellow;
+}
+
+.icon:hover {
+  filter: invert(0.5);
+}
